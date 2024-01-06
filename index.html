@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form Of Stoytelling Contest</title>
+    <link rel="stylesheet" href="Style.css">
+  
+</head>
+<body>
+    <!-- Feedback Form -->
+   <div class="main">
+    <h2>Feedback Form Of Stroytelling Contest</h2>
+    <form method="post">
+        <label for="story">Your Story :</label>
+        <textarea id="story" name="story" placeholder="Share your amazing story here..." required></textarea>
+
+    <form class="rating">
+    <label for="storyRating">Select your rating :</label>
+    <select id="storyRating" name="storyRating">
+        <option value="5">Excellent</option>
+        <option value="4">Very Good</option>
+        <option value="3">Good</option>
+        <option value="2">Nice</option>
+        <option value="1">Poor</option>
+    </select> <br>
+
+   
+    </form>
+        <label for="name">Your Name :</label>
+        <input type="text" id="name" name="name" placeholder="Alok Roy" required>
+        
+        <label class="label-1" for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="alokroy602701@gmail.com" required> <br>
+
+        <input type="submit" value="Submit Story">
+    </form>
+   </div>
+</body>
+</html>
